@@ -62,7 +62,7 @@ int main(int argc,char* argv[]){
 		cout<<mm->id<<"---"<<mm->name<<"---"<<mm->sex<<endl;
 		sleep(1);
 	}
-
+	// 
 	munmap(mm, MAPLEN);
     return 0;
 }
